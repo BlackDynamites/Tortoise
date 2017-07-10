@@ -1,0 +1,180 @@
+html {
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: Helvetica;
+}
+
+body {
+  line-height: 1.4;
+}
+
+div {
+  border: black 1px solid;
+}
+/* Header section */
+
+header {
+  background-image: url(../images/glasses-bg.png);
+  height: 31rem;
+  background-repeat: no-repeat;
+  background-position: left;
+  width: 100%;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+
+}
+
+.head-container {
+  width: 960px;
+  background-color: cadetblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.head-logo {
+  display: flex;
+  align-items: center;
+}
+
+.head-logo img {
+  height: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  padding-right: 1rem;
+}
+
+.navigation h2 {
+  padding: 1rem 1rem;
+
+}
+
+#menu {
+  display: none;
+}
+
+/* Banner seciton */
+
+.banner {
+  display: flex;
+  justify-content: center;
+}
+
+.banner-container {
+  width: 960px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.banner-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10rem;
+
+}
+
+.banner-box h1 {
+  padding: 1.5rem 5rem;
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: bold;
+  background-color: white;
+}
+
+/* Main section with logos */
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.site-container {
+  width: 960px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  height: 8rem;
+  justify-content: space-between;
+  margin: 3rem 0;
+  align-items: center;
+}
+
+.one img {
+  width: 3.5rem;
+  height: auto;
+}
+
+.two img,
+.three img {
+  width: 5rem;
+  height: auto;
+}
+
+.logo h2 {
+  text-align: center;
+}
+
+/* Service Section */
+
+.service {
+  display: flex;
+  justify-content: space-around;
+}
+
+.serv-box {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  margin-right: 5%;
+}
+
+.serv-top {
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 1.25rem;
+  width: 60%;
+
+}
+
+/* Footer section */
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  width: 960px;
+  display: flex;
+  align-items: center;
+  background-color: azure;
+
+}

@@ -8,9 +8,6 @@ body {
   line-height: 1.4;
 }
 
-div {
-  border: black 1px solid;
-}
 /* Header section */
 
 header {
@@ -188,3 +185,140 @@ footer {
   height: 1.5rem;
   padding: 4rem 1rem 4rem 4rem;
 }
+
+/* Media Queries Tablet */
+
+@media only screen and (max-width: 1024px) {
+  .banner-box h1 {
+    padding: 1.5rem 4rem;
+    font-size: 1.33rem;
+  }
+
+  .banner-container {
+    width: 100%;
+  }
+
+  .banner-box {
+    margin-top: 5rem;
+    margin-right: 2rem;
+  }
+
+  header {
+    height: 22rem;
+  }
+
+  .head-container {
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .site-container {
+    width: 100%;
+}
+
+@media only screen and (max-width: 750px) {
+
+  .navigation h2 {
+    display: none;
+
+  }
+
+  #menu {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+
+  header {
+    background-position: 20%;
+    height: 17rem;
+  }
+
+  .head-logo h2 {
+    display: none;
+  }
+
+  .banner-box h1 {
+    padding: 1rem 0;
+    font-size: 1rem;
+  }
+
+  .banner-box {
+    margin-top: 9rem;
+    width: 100%;
+    margin-right: 0;
+    background-color: white;
+  }
+
+  .logos {
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    margin: 3rem 0;
+
+  }
+
+  .logo {
+    margin: 0.77rem 0;
+    height: auto;
+  }
+
+  .logo h2 {
+    font-size: 0.77rem;
+    margin-top: 1rem;
+  }
+
+  .service {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .serv-box {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 4rem;
+  }
+
+  .serv-top {
+    width: 100%;
+    padding: 0.5rem 0;
+  }
+
+  .service p {
+    font-size: 0.77rem;
+  }
+
+  .footer {
+    width: 100%;
+    justify-content: center;
+
+  }
+
+  .footer h2 {
+    display: none;
+  }
+
+  .footer img {
+    padding: 4rem 0;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries Phone */
